@@ -1,0 +1,9 @@
+\0 is called null character
+ASCII is american standard code for information interchange
+'a' ascii val=97,'A' ascii val=65
+cin.getline use for word with space .like ->hello word
+word[]="hello"
+cout<<word    ->means output is hello
+
+strlen -use for size of char array or strings ,if you use this then must include #includde<string.h>
+header file

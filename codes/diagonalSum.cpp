@@ -13,6 +13,13 @@ int diagonalSum(int matrix[][3],int n){
     }
   } 
   cout<<"sum ="<<sum<<endl;
+  //optimize ,t.c=0(n)
+// for(int i=0;i<n;i++){
+//   sum+=matrix[i][i];
+//   if(i!=n-i-1){
+//     sum+=matrix[i][n-i-1];
+//   }
+// }
   return sum;
 }
 int main(){
@@ -23,10 +30,4 @@ int main(){
 
   return 0;
 }
-//optimize ,t.c=0(n2)
-for((int i=0;i<n;i++)){
-  sum+=matrix[i][i];
-  if(i!=n-i-1){
-    sum+=matrix[i][n-i-1];
-  }
-}
+
